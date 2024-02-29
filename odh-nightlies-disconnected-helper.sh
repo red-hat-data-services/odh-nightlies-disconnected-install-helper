@@ -4,7 +4,7 @@ set -o nounset
 set -o pipefail
 
 set_defaults() {
-  org_url_base="https://api.github.com/orgs/red-hat-data-services/repos?per_page=100&page="
+  org_url_base="https://api.github.com/orgs/opendatahub-io/repos?per_page=100&page="
   excluded_repos=("rhods-disconnected-install-helper" "odh-manifests" "openshift-ai-handbook")
   rhods_version="${rhods_version:-}"
   repository_folder="${repository_folder:-.odh-manifests}"
@@ -13,8 +13,8 @@ set_defaults() {
   file_name="${file_name:-$rhods_version.md}"
   skip_tls="${skip_tls:-false}"
   mirror_url="${mirror_url:-registry.example.com:5000/mirror/oc-mirror-metadata}"
-  repository_url="${repository_url:-https://github.com/red-hat-data-services/odh-manifests}"
-  notebooks_url="${notebooks_url:-https://github.com/red-hat-data-services/notebooks}"
+  repository_url="${repository_url:-https://github.com/opendatahub-io/odh-manifests}"
+  notebooks_url="${notebooks_url:-https://github.com/opendatahub-io/notebooks}"
   openshift_version="${openshift_version:-v4.14}"
   skip_image_verification="${skip_image_verification:-false}"
   channel="${channel:-stable}"
@@ -114,13 +114,9 @@ function image_tag_to_digest() {
 
 function find_images(){
   local openvino=""
-  if is_rhods_version_greater_or_equal_to rhods-2.4; then
-    find "$repository_folder" -maxdepth 2 -type d \( -name "manifests" -o -name "config" -o -name "jupyter" \) -exec bash -c 'grep -hrEo "quay\.io/[^/]+/[^@\{\},]+@sha256:[a-f0-9]+" "$0"' {} \; | grep -v 'quay\.io/opendatahub' | sort -u
-  else
-    grep -hrEo 'quay\.io/[^/]+/[^@{},]+@sha256:[a-f0-9]+' "$repository_folder" | sort -u
-  fi
+  grep -hrEo 'quay\.io/[^/]+/[^@{},]+@sha256:[a-f0-9]+' "$repository_folder" | sort -u
   # search openvino image
-  local manifests_folder=$( is_rhods_version_greater_or_equal_to rhods-2.4 && echo "/manifests" || echo "" )
+  local manifests_folder="/manifests"
   local openvino_path="$repository_folder/odh-dashboard$manifests_folder/overlays/modelserving/kustomization.yaml"
   if [ -f "$openvino_path" ]; then
     #local image_name=$(yq -r .images[0].newName "$openvino_path")
@@ -166,9 +162,6 @@ cat <<EOF >"$file_name"
 # Additional images:
 $(find_images | sed 's/^/    - /')
 $(image_tag_to_digest "$must_gather_image" | sed 's/^/    - /')
-$(if ! is_rhods_version_greater_or_equal_to rhods-2.4; then
-find_notebooks_images | sed 's/^/    - name: /' 
-fi)
 
 # ImageSetConfiguration example:
 \`\`\`yaml
@@ -189,9 +182,6 @@ mirror:
   additionalImages:   
 $(find_images | sed 's/^/    - name: /')
 $(image_tag_to_digest "$must_gather_image" | sed 's/^/    - name: /')
-$(if ! is_rhods_version_greater_or_equal_to rhods-2.4; then
-find_notebooks_images | sed 's/^/    - name: /' 
-fi)
 \`\`\`
 EOF
 }
@@ -272,13 +262,15 @@ function get_next_page_url() {
 function branch_exists() {
   local repo=$1
   local version=$2
-  git ls-remote --heads "https://github.com/red-hat-data-services/$repo.git" "$version" | grep -q "$version"
+  git ls-remote --heads "$repo" "$version" | grep -q "$version"
 }
 
 function clone_repo() {
   local repo=$1
   local version=$2
-  git clone --depth 1 -b "$version" "https://github.com/red-hat-data-services/$repo.git" "$repository_folder/$repo" 
+  folder=${repo%.git}
+  folder=${folder##*/}
+  git clone --depth 1 -b "$version" "$repo" "$repository_folder/$folder"
   if [ $? -ne 0 ]; then
     echo "Error: Failed to access $repo"
     return 1
@@ -298,20 +290,22 @@ function is_repo_excluded() {
 function clone_all_repos() {
   local org_url="${org_url_base}"
   check_github_rate_limit
-  while :; do
-    local repos
-    repos=$(curl -s "$org_url" | jq -r '.[] | .name')
-    if [ -z "$repos" ]; then
-      break
-    fi
-    org_url=$(get_next_page_url "$org_url")
-    for repo in $repos; do
-      if ! is_repo_excluded "$repo"; then
-        if branch_exists "$repo" "$rhods_version"; then
-          clone_repo "$repo" "$rhods_version"
-        fi
+  local repos
+  repos=$(yq -o json repos.yaml | jq -c '.git[]')
+  if [ -z "$repos" ]; then
+    break
+  fi
+  for repo in $repos; do
+  url=$(echo "${repo}" | jq '.url' | tr -d '"')
+  [[ $url == *.git ]] || url+=.git
+  branch=$(echo "${repo}" | jq '.branch' | tr -d '"')
+  echo "url=$url"
+  echo "branch=$branch"
+    if ! is_repo_excluded "$url"; then
+      if branch_exists "$url" "$branch"; then
+        clone_repo "$url" "$branch"
       fi
-    done
+    fi
   done
 }
 
@@ -403,22 +397,14 @@ function main(){
   set_defaults
   parse_args "$@"
   if [ -z "$rhods_version" ]; then
-    rhods_version=$(get_latest_rhods_version)
+    rhods_version='odh-nightlies'
     file_name="$rhods_version.md"
-    echo "Use latest RHODS version $rhods_version"  
+    echo "Use RHODS version $rhods_version"
   fi
-  if is_rhods_version_greater_or_equal_to rhods-2.4; then
-    echo "Cloning repositories"
-    clone_all_repos
-  else
-    fetch_repository
-    pushd "$repository_folder" || echo "Error: Directory $repository_folder does not exist"
-    change_rhods_version
-    popd || exit 1
-    fetch_notebooks_repository
-  fi
+  echo "Cloning repositories"
+  clone_all_repos
   image_set_configuration
-  cleanup
+#  cleanup
 }
 
 main "$@"
