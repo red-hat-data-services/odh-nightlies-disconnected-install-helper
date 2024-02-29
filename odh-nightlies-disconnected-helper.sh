@@ -145,14 +145,6 @@ function image_set_configuration() {
       fi
       verify_image_exists "$image"
     done < <(find_images)
-    if ! is_rhods_version_greater_or_equal_to rhods-2.4; then
-      while read -r image; do
-        if [[ $image =~ [{}]+ ]]; then
-          continue
-        fi
-        verify_image_exists "$image"
-      done < <(find_notebooks_images)
-    fi
     verify_image_exists "$(image_tag_to_digest $must_gather_image)"
   else
     echo "Skipping image verification"
@@ -404,7 +396,7 @@ function main(){
   echo "Cloning repositories"
   clone_all_repos
   image_set_configuration
-#  cleanup
+  cleanup
 }
 
 main "$@"
