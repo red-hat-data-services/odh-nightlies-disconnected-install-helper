@@ -3,9 +3,6 @@ name: Run rhods-disconnected-helper script once a day
 on: 
   schedule:
     - cron:  '0 12 * * *'
-  push:
-    branches:
-      - main
 
 jobs:
   run-script:
