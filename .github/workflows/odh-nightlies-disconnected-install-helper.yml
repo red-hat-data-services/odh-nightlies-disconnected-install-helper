@@ -1,4 +1,4 @@
-name: Run rhods-disconnected-helper script once a day
+name: Run odh-nightlies-disconnected-install-helper  script once a day
 
 on: 
   schedule:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Run rhods-disconnected-helper.sh script
+    - name: Run odh-nightlies-disconnected-install-helper.sh script
       run: |
         chmod +x odh-nightlies-disconnected-helper.sh
         ./odh-nightlies-disconnected-helper.sh
@@ -19,5 +19,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
-        message: "Update rhods-disconnected-helper.sh script"
-        repository: red-hat-data-services/rhods-disconnected-install-helper
+        message: "Update odh-nightlies-disconnected-install-helper.sh script"
+        repository: red-hat-data-services/odh-nightlies-disconnected-install-helper
