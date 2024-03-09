@@ -1,5 +1,7 @@
 # Additional images:
+    - quay.io/modh/odh-anaconda-notebook@sha256:380c07bf79f5ec7d22441cde276c50b5eb2a459485cde05087837639a566ae3d
     - quay.io/modh/openvino-model-server@sha256:c89f76386bc8b59f0748cf173868e5beef21ac7d2f78dada69089c4d37c44116
+    - quay.io/opendatahub/ds-pipelines-artifact-manager@sha256:db16085f67fd817088e7f6f592cf1b9c1558c56e0855303b3adea0b2fa18455f
     - quay.io/opendatahub/notebooks@sha256:5df71f5542d2e0161f0f4342aa9a390679d72dc6fae192fd8da1e5671b27e8d4
     - quay.io/opendatahub/notebooks@sha256:94c5d01b19a0f30c0ca18153c50f18317f42c224e82321ef39c43116e7184731
     - quay.io/opendatahub/notebooks@sha256:a138838e1c9acd7708462e420bf939e03296b97e9cf6c0aa0fd9a5d20361ab75
@@ -72,7 +74,10 @@
     - quay.io/opendatahub/workbench-images@sha256:f9a70e7460590dbc6b32b2fb5967fb174c12d22d4af8684a354ce5abce2de96d
     - quay.io/opendatahub/workbench-images@sha256:fd5b9f65c0f46d4c093e2f58fce305eeb125bf19ee1d88f67b9fafe56142e92d
     - quay.io/opendatahub/workbench-images@sha256:fd9bfb6401a92101560e4f7ace0f3a2ec9f1c3021e33e3b1ee070c9ed0b01604
-    - quay.io/modh/odh-openvino-servingruntime-container@sha256:19980c28d38a10a8146ed695da78c982854751f08a7b2a02666db2b98b401e98
+    - quay.io/modh/openvino_model_server@sha256:5d04d405526ea4ce5b807d0cd199ccf7f71bab1228907c091e975efa770a4908
+    - quay.io/modh/caikit-tgis-serving@sha256:444bca43c99bfc4b961c926f5f10c556488613912f5e333011e98b3407d76d00
+    - quay.io/modh/text-generation-inference@sha256:e4d24fd401fd4eb89b49b4ab07e0c08389384d4a672b240e98a03ad7f9ef1c85
+    - quay.io/modh/openvino_model_server@sha256:5d04d405526ea4ce5b807d0cd199ccf7f71bab1228907c091e975efa770a4908
     - quay.io/modh/must-gather@sha256:c2d780156a0e7cec975c9c150bee00b1facb8f6213e7b98a7a489448d76dfd94
 
 # ImageSetConfiguration example:
@@ -92,7 +97,9 @@ mirror:
       channels:
       - name: stable
   additionalImages:   
+    - name: quay.io/modh/odh-anaconda-notebook@sha256:380c07bf79f5ec7d22441cde276c50b5eb2a459485cde05087837639a566ae3d
     - name: quay.io/modh/openvino-model-server@sha256:c89f76386bc8b59f0748cf173868e5beef21ac7d2f78dada69089c4d37c44116
+    - name: quay.io/opendatahub/ds-pipelines-artifact-manager@sha256:db16085f67fd817088e7f6f592cf1b9c1558c56e0855303b3adea0b2fa18455f
     - name: quay.io/opendatahub/notebooks@sha256:5df71f5542d2e0161f0f4342aa9a390679d72dc6fae192fd8da1e5671b27e8d4
     - name: quay.io/opendatahub/notebooks@sha256:94c5d01b19a0f30c0ca18153c50f18317f42c224e82321ef39c43116e7184731
     - name: quay.io/opendatahub/notebooks@sha256:a138838e1c9acd7708462e420bf939e03296b97e9cf6c0aa0fd9a5d20361ab75
@@ -165,6 +172,9 @@ mirror:
     - name: quay.io/opendatahub/workbench-images@sha256:f9a70e7460590dbc6b32b2fb5967fb174c12d22d4af8684a354ce5abce2de96d
     - name: quay.io/opendatahub/workbench-images@sha256:fd5b9f65c0f46d4c093e2f58fce305eeb125bf19ee1d88f67b9fafe56142e92d
     - name: quay.io/opendatahub/workbench-images@sha256:fd9bfb6401a92101560e4f7ace0f3a2ec9f1c3021e33e3b1ee070c9ed0b01604
-    - name: quay.io/modh/odh-openvino-servingruntime-container@sha256:19980c28d38a10a8146ed695da78c982854751f08a7b2a02666db2b98b401e98
+    - name: quay.io/modh/openvino_model_server@sha256:5d04d405526ea4ce5b807d0cd199ccf7f71bab1228907c091e975efa770a4908
+    - name: quay.io/modh/caikit-tgis-serving@sha256:444bca43c99bfc4b961c926f5f10c556488613912f5e333011e98b3407d76d00
+    - name: quay.io/modh/text-generation-inference@sha256:e4d24fd401fd4eb89b49b4ab07e0c08389384d4a672b240e98a03ad7f9ef1c85
+    - name: quay.io/modh/openvino_model_server@sha256:5d04d405526ea4ce5b807d0cd199ccf7f71bab1228907c091e975efa770a4908
     - name: quay.io/modh/must-gather@sha256:c2d780156a0e7cec975c9c150bee00b1facb8f6213e7b98a7a489448d76dfd94
 ```
