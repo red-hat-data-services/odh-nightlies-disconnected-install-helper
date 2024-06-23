@@ -113,23 +113,19 @@ function image_tag_to_digest() {
 }
 
 function find_images(){
-  local openvino=""
-  grep -hrEo 'quay\.io/[^/]+/[^@{},]+@sha256:[a-f0-9]+' "$repository_folder" | sort -u
-  # search openvino image
-  local manifests_folder="/manifests"
-  local openvino_path="$repository_folder/odh-dashboard$manifests_folder/overlays/modelserving/kustomization.yaml"
-  if [ -f "$openvino_path" ]; then
-    #local image_name=$(yq -r .images[0].newName "$openvino_path")
-    local image_name_tag=$(yq eval '.images[] | .newName + "@" + .digest' "$openvino_path")
-    echo "$image_name_tag"
-  elif [ ! -f "$openvino_path" ]; then
-    openvino=$(grep -hrEo 'quay\.io/[^/]+/[^@{},]+:[^@{},]+' "$repository_folder" | sort -u | sed -n '/openvino/p')
-    if [ -z "$openvino" ]; then
-      echo "Error: openvino image not found"
-      exit 1
-    fi
-    image_tag_to_digest $(echo "$openvino")
-  fi
+ local openvino=""
+ 
+  #grep -hrEo 'quay\.io/[^/]+/[^@{},]+@sha256:[a-f0-9]+' "$repository_folder" | sort -u
+  grep -hrEo --exclude-dir=frontend 'quay\.io/[^/]+/[^@{},]+@sha256:[a-f0-9]+' "$repository_folder" | sort -u
+  local openvino_path="$repository_folder/odh-model-controller/config/base/params.env"
+ 
+  while IFS= read -r line || [[ -n "$line" ]]; do
+      imagename_tag="${line#*=}"
+      if [[ "$imagename_tag" == quay.io/modh/* ]]; then
+       echo "$imagename_tag"
+      fi
+    done < "$openvino_path"
+
 }
 
 function find_notebooks_images() {
