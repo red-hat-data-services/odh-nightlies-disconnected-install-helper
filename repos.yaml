@@ -1,15 +1,15 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 47ea7d1ee92e339c32cc790026b35dbc7c26f4f6
+  commit: 613d55246d6f9b858c542d398c69f3b86c03d758
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: a9bbb1b1562ed400d7318507eaf4b5bee29c25d6
+  commit: fce1bf59d0583ab15376ee6e85cdff97d15ad0e2
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
-  commit: 79131311c29a3d9fbbe93507e6a3bebac3c3b276
+  commit: e4d2c4496ea45cb6ed7614dc449654f438abd97d
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 8eb9a759aa684f62347c93a07749ea9f0c0ed425
+  commit: 2ea55efb26151ac71d4020d88b47fa7ed38c591f
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -33,7 +33,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-runtime-adapter.git
 - automerge: 'yes'
   branch: master
-  commit: d375ab1e52d2d3c4cd07891649ebec3d3d6465ff
+  commit: fb56bf4dfa3b0c969f42686f85c7924c139611c0
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
@@ -61,7 +61,7 @@ git:
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: f9970f5892f5cc3bc653956729ad348db894a2f5
+  commit: bbba58c4f847d4837bc751d48b7d38c8a420e031
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
@@ -77,7 +77,7 @@ git:
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 4b3b6449abe7d72ab3816f8b09feb1300d6a9663
+  commit: a0365f852a67d2b6afcd5469314ffeab0ac61db0
   url: https://github.com/opendatahub-io/kueue.git
 - automerge: 'yes'
   branch: master
