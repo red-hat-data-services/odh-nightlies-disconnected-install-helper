@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 9b68ea8c0cdd686fc3d1e053513652ae6d844b12
+  commit: 9dd35962e1c18d4ee8a30c89caa174c2ef81b489
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 1d3463c3d5f4df0698b1fdaa71a4c2f19f8b6348
+  commit: f3339ac7fd50943d515e77472cc6cc7ebda49e9e
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
