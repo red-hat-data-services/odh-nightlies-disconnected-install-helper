@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 5a0b4b99e996885a46c36c3e9c73cf8fd874c959
+  commit: 2110c0501ea24fb8df12d12ea682e5e483e62281
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 27ca9e8cb4072bc8f63e8824430d246233233562
+  commit: 48b04aa9154f9f8ca740982147949991eb785964
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 76845fe4ed43429a3fcde7d0da9d98f46780fdd9
+  commit: dcfc9577effb81e03805610f0efb2a1da47aca95
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -33,11 +33,11 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-runtime-adapter.git
 - automerge: 'yes'
   branch: master
-  commit: fb56bf4dfa3b0c969f42686f85c7924c139611c0
+  commit: 7abbc57530c02f04a3761cf67166e612cf9f199f
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
-  commit: ad90d7fec67e0a3f2786b1dcf4affbf13bb09708
+  commit: f4671fe30f38f8a943b008255c6cc95f895da366
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 12c1549f704f5adface66a54c1fd2dea51fd4a27
+  commit: 4c179f5d101a06d07c41af89a1b1e6bb29d6f6ce
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -53,7 +53,7 @@ git:
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: 6f29c030c22f82b737d00743dce38bc330c78f0b
+  commit: 2876cf16f06b4cd9d4f70a3d4c98cf9a6099320e
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
@@ -65,7 +65,7 @@ git:
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
-  commit: 27f0e99e2c694cc5c38ce354b37f53b07575681f
+  commit: e99da7ab8493f2f9bf5b6389c3454241d08dfed0
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
