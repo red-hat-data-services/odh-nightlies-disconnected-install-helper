@@ -1,5 +1,5 @@
 # Additional images:
-    - quay.io/ksuta/alpaca-dataset@sha256:c0492ff0005c13ac491e00d074902aa9dd21a49691945b122da23db3a3b3ac76
+    - quay.io/ksuta/alpaca-dataset@sha256:2e90f631180c7b2c916f9569b914b336b612e8ae86efad82546adc5c9fcbbb8d
     - quay.io/ksuta/bloom-560m@sha256:f6db02bb7b5d09a8d698c04994d747bfb9e581bbb4c07d00290244d207623733
     - quay.io/opendatahub/workbench-images@sha256:07770e7eba2145309eed705261e3e295c53a05912a822bf8a64b4d284cfb79ca
     - quay.io/opendatahub/workbench-images@sha256:083b81bf7a8f80bf8b1eebbb8d0ad63137c39cd91a2b9c29d76c240ce02013d9
@@ -92,7 +92,7 @@ mirror:
       channels:
       - name: stable
   additionalImages:   
-    - name: quay.io/ksuta/alpaca-dataset@sha256:c0492ff0005c13ac491e00d074902aa9dd21a49691945b122da23db3a3b3ac76
+    - name: quay.io/ksuta/alpaca-dataset@sha256:2e90f631180c7b2c916f9569b914b336b612e8ae86efad82546adc5c9fcbbb8d
     - name: quay.io/ksuta/bloom-560m@sha256:f6db02bb7b5d09a8d698c04994d747bfb9e581bbb4c07d00290244d207623733
     - name: quay.io/opendatahub/workbench-images@sha256:07770e7eba2145309eed705261e3e295c53a05912a822bf8a64b4d284cfb79ca
     - name: quay.io/opendatahub/workbench-images@sha256:083b81bf7a8f80bf8b1eebbb8d0ad63137c39cd91a2b9c29d76c240ce02013d9
