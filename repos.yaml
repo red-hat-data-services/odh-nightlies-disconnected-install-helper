@@ -5,11 +5,11 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 0df935a1f09b45def8301ae68ed2bd520634c8c9
+  commit: f5a90d4c9a0fccbf2a346d46cfc03c9950c279e8
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
-  commit: f88020a21547f957e7019af324f5ffe5fba31d0a
+  commit: 301bfcec76361dddde55cc14b490a8503865c0a5
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: dcfc9577effb81e03805610f0efb2a1da47aca95
+  commit: e914533fa1ca4217572c89cd01085ba9ffd58754
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -37,7 +37,7 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
-  commit: a4b7f9cd0ec429d2a3784b83bf86dbd0f482ed2e
+  commit: ec1ada2e7808ccec0bac4c304848ca4a40678d66
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: c1c1618a02cd48ba40e020a914249401e32492b3
+  commit: dc4aa3a0229de3fb8d355cb99300359ec39799e4
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -53,15 +53,15 @@ git:
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: c2d1f78f796d138000d9cfac15d0ddd2cd16ee0f
+  commit: d82a77d8a79925ed7b26dec50d6cc3fbe7d123b9
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: f8f7e3dd1a473be5fe4df17e4974222b1375b6d8
+  commit: 5cda639cde8342ef0fea4ad049012d71d910fc5f
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: cdbf08693e32f91c2a7ebe107405800040f82e43
+  commit: a1154b40f46deb2d1542cf49ed736b9925732e49
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
