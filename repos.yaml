@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 7034768918054cb77bae5da9bbe89b89eff42b72
+  commit: a08c94a226585e43387ad263e2653c0fd43130f1
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: c6336ff0946f1f3515714c9959eeb012fbfd1320
+  commit: d47fa7a4b58efe099ae224b9506ab1b105605e28
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 21747c9522a6040b347333da1acf5491b2c4bf39
+  commit: 7a14b2092913e57cc2367ce14c0fa7787b2b6d1e
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -37,7 +37,7 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
-  commit: a72646a46c12abc32ea98ab0637b135409f3e282
+  commit: f15dedfe36e9e4ed5b33512baeae57edf7e93eda
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: dc4aa3a0229de3fb8d355cb99300359ec39799e4
+  commit: c03a6ab3e9bc7335f8e0f87798a126888af2b069
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 4820c36c54ce2dbd107c9d89391f2c3b159ad875
+  commit: 7bbcefb705b0927571b5b3e1f1178040e8a6f94f
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: dbeac5b52f3051e5aa1878238c93e41159270fd4
+  commit: ed46263ddc45a648eebdd79121b9673f3b713fd5
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
