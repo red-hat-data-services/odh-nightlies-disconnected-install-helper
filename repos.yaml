@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 112c262cb270d38dacec97b944f6132106c021d8
+  commit: d6ae248411134f8d1098d432403cd84f0b95dcd1
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 73e69e58efafbaf15d01accc334f76618a123ca4
+  commit: e7239c594cd0cb1ec70f7e11be74ec34706e84a0
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
@@ -41,11 +41,11 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: 91ba2c56fb0ae4aeaa17c610d637e3df394bb10a
+  commit: d552762ee3ca7173e71932d91cad61afe2bdf80a
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: c03a6ab3e9bc7335f8e0f87798a126888af2b069
+  commit: f03a1a20835a3b501ec4594b73ae6dc41057214e
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -69,7 +69,7 @@ git:
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: 159ed5d286bc3937908b2b82f8a30879023f383a
+  commit: a5773398a14508d0cd9a98b923d6612f56040966
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
