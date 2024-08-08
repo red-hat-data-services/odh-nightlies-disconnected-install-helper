@@ -5,11 +5,11 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 7ef421f2129d68f7299fbd613a47d35c3ab23517
+  commit: 62728f1b3b05a58f36777ed2f07f05f7cd484cca
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
-  commit: db3b994081ee06c74d5a81c8e7c9fba21c9fb148
+  commit: 2aebc76fa2e200a572f140e34b6ed078485d2448
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -37,15 +37,15 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
-  commit: cf29ded3109eb1cb596c563ff442908514f93b63
+  commit: 82e40d60a4f7b5c67fdf05e74b9c5e9ea423b6cd
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: d552762ee3ca7173e71932d91cad61afe2bdf80a
+  commit: 4458d0d726118cd25ec97671f63f7d750ac110d4
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: f03a1a20835a3b501ec4594b73ae6dc41057214e
+  commit: 2fb74504eb61d4f0e805a774b71f44e394b96361
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -57,15 +57,15 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 5c39a1b48be71e48c75c538f8f48575322f04d84
+  commit: 8217a8c253a4095ff6ff2d9ceb8905432cdf1f90
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: ec45de1690506a8acd7917595f2f15a3e10d52b9
+  commit: ae4e01f4d1de4ba31198eb67bdcff56e9c31964e
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
-  commit: 64ca730698aef7692f63ecf753cca4c637521add
+  commit: ab57af4fa0b650288bce5ce28fbcda78142ba0c6
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
