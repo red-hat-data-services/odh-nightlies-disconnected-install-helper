@@ -57,7 +57,7 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 8217a8c253a4095ff6ff2d9ceb8905432cdf1f90
+  commit: ec54bd70ea89193fe7d732e0cbcd43ddf779a795
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
