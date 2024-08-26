@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 12c9f82ff6f5812b7609fd958931cd71d3e363c8
+  commit: fc9a0587163b01d5c0078c6bafc76235307777c2
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: f04b978380cd0b5c3f33a80a2f037db21f156035
+  commit: 244d1860e4b16beca2bff865699e7ac65b37766d
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
