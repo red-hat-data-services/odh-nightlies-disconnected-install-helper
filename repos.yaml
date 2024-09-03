@@ -1,7 +1,7 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: a611427b6dfba2a2652de18af7b2a8a74db78173
+  commit: 704f8c94a7f4a962274da7ba4576ce75c4d00570
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
