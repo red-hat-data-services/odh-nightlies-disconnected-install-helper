@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 562efd119ad675a79c8cd0a927b24ab4a09cd465
+  commit: df1add0ae07b500152d8226f70375a1023cf2223
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: d0b5ce9a920b4f837ff5a0b5fedc73f1384b8cf0
+  commit: 6910d160283d4c8cda5d07510e4af1ed8b303700
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: v1.7-branch
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 9617f48ba1636f507d245f672cf3358539baac6e
+  commit: 0af44255931a43eff7277dc20ae7baa4188f2109
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -53,23 +53,23 @@ git:
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: bf954d1e5ca01ba76d219e9afb10ce646de2edf6
+  commit: aba93e8284c345cdb78969e5be3c1e0ae0c514df
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: d9696177e4320f04962d2418f0e801d04c9a5108
+  commit: 38b2fa49bc158738648bb4a344ef285c02c2620a
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 4317cc1a564a5688132755b17b10cd9644b50449
+  commit: 7fffb1ad808df954821b9e5779451a8294a7bb14
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
-  commit: 1c5fb349e0a53707115cd62373316d177f715780
+  commit: fa8ea8a9727efb4b828d996f62a9fc3c60af25da
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: 108f6977b7c4cc1a449d2f06e85e06f771d585c7
+  commit: 0cd206f15f8f0386c3b0b3e176e591ae753fcf25
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
@@ -77,7 +77,7 @@ git:
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 9765a5d13ee44d6da256a24bdc8d7461314ad0d0
+  commit: edaa8c71457880ad2376cd1065b42994672cea72
   url: https://github.com/opendatahub-io/kueue.git
 - automerge: 'yes'
   branch: master
