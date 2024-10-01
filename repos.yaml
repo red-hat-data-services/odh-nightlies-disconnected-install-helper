@@ -8,8 +8,8 @@ git:
   commit: 330dfdfb870662d906296fb539de34d004e0b465
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
-  branch: v1.7-branch
-  commit: 55809c1fa34cf9ea18fd90c9832d1081eb8c3546
+  branch: main
+  commit: 99e70bf1c44d3cc2e07983ded45d1e37a4ed5f42
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
