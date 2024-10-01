@@ -76,6 +76,7 @@
     - quay.io/opendatahub/workbench-images@sha256:f77611b80c4916855108414f308c60562dbe4951ae5fe3f4fd5e0ee80ac2be3f
     - quay.io/opendatahub/workbench-images@sha256:fd42f85f9c4d08844109c8fc00f17dbb6e3efd443b16f1b0aefb63e42a233200
     - quay.io/opendatahub/workbench-images@sha256:fd5b9f65c0f46d4c093e2f58fce305eeb125bf19ee1d88f67b9fafe56142e92d
+    - quay.io/openshift/origin-oauth-proxy@sha256:1ece77d14a685ef2397c3a327844eea45ded00c95471e9e333e35ef3860b1895
     - quay.io/modh/must-gather@sha256:f49988620efc6227f931c964e45e935838406340a096db84f5736c05066f1cc6
 
 # ImageSetConfiguration example:
@@ -172,5 +173,6 @@ mirror:
     - name: quay.io/opendatahub/workbench-images@sha256:f77611b80c4916855108414f308c60562dbe4951ae5fe3f4fd5e0ee80ac2be3f
     - name: quay.io/opendatahub/workbench-images@sha256:fd42f85f9c4d08844109c8fc00f17dbb6e3efd443b16f1b0aefb63e42a233200
     - name: quay.io/opendatahub/workbench-images@sha256:fd5b9f65c0f46d4c093e2f58fce305eeb125bf19ee1d88f67b9fafe56142e92d
+    - name: quay.io/openshift/origin-oauth-proxy@sha256:1ece77d14a685ef2397c3a327844eea45ded00c95471e9e333e35ef3860b1895
     - name: quay.io/modh/must-gather@sha256:f49988620efc6227f931c964e45e935838406340a096db84f5736c05066f1cc6
 ```
