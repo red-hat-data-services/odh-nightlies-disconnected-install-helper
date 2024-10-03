@@ -5,7 +5,7 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 228e221ac9e1d83a3ce461b2a4c637ae3b2f53f6
+  commit: 9372a8a62bbe25e1ff7426f65bcf1699eee1a160
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -61,7 +61,7 @@ git:
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: c37956c0a9572a9cf93260471eda5e3c83649f0d
+  commit: eb433fcc5e1665f6d39a247c6b977929963b97f5
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
