@@ -5,7 +5,7 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 215d63d60687e4b6e89d7d191c431e0caf6ee2c8
+  commit: 85ce6959735cbed977f6a92d3a636b3811e97495
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
