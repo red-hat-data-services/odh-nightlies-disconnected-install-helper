@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: fa63b4db12ad52166c316c861afbf87ab271adfb
+  commit: 2708e540ec42b01f7dffc0a99cbd2958ac67de70
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 873a2661c47b84a71097691fbf338a1913cf6f94
+  commit: a15a69c5a1d06e974533795284eddb72de99d85b
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -25,11 +25,11 @@ git:
   url: https://github.com/opendatahub-io/rest-proxy.git
 - automerge: 'yes'
   branch: main
-  commit: aa7089ac4a483d7041c69ac35dfb8b41205738e3
+  commit: e3fdc0f297657f4e99195661b2e34f77c9924215
   url: https://github.com/opendatahub-io/modelmesh.git
 - automerge: 'yes'
   branch: main
-  commit: 7d5932037772465bb683e32176a72e4d045d0f4a
+  commit: b21e337b3b69cb228a80c30358694ed3e54b0024
   url: https://github.com/opendatahub-io/modelmesh-runtime-adapter.git
 - automerge: 'yes'
   branch: master
@@ -37,11 +37,11 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-tekton.git
 - automerge: 'yes'
   branch: main
-  commit: c74f2d083b65c0344b444533dacc867beb57309a
+  commit: 199564ea3a7397525e75e488aedc2e5d0eddaf98
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: d11408cf5a8f717e4d63112c21f2a7addfea62a0
+  commit: 79797678120b356c9bed994fbbb021c60aa9b06d
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 90f9e75dbd039698c6375b5e00d4a9dd7f1129c3
+  commit: 037b33eac1188958a31b67536503dce7028e4049
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 7fb4961ba567fba9aedbb6c87270e8605af9ef3e
+  commit: e97cebbbb253e5048fcc8d282343cadaef2ac1fd
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
