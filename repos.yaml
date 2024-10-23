@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 578d73e6827aa5f82477680a0ba4dde997b52c22
+  commit: 3427b72d83faba7eb448a7c5dd5cafbb7314421d
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 96e06a288c854073cb1683f21c67285587bb8d1f
+  commit: 9d7dcab2f194ef8c63fc226beed8ca75e435164a
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 656d58cea4a38439cdc7389c49ffb1f8f2f87520
+  commit: db5c3505625a7b9612ec3798e1d2c1e9b9b2f195
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -25,11 +25,11 @@ git:
   url: https://github.com/opendatahub-io/rest-proxy.git
 - automerge: 'yes'
   branch: main
-  commit: e3fdc0f297657f4e99195661b2e34f77c9924215
+  commit: e3b07d5e076bbabbdef8181d9d589fee36554918
   url: https://github.com/opendatahub-io/modelmesh.git
 - automerge: 'yes'
   branch: main
-  commit: b21e337b3b69cb228a80c30358694ed3e54b0024
+  commit: 40bde5a0433ef2655a2958d428bf57a9663cfdc7
   url: https://github.com/opendatahub-io/modelmesh-runtime-adapter.git
 - automerge: 'yes'
   branch: master
@@ -41,7 +41,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: ddd093a20acb147e534eb72e47567e6b9e46a579
+  commit: f70af363a0dd4824e1faafe67280fffedc7b7960
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
@@ -57,7 +57,7 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 1fb06b08b8fc17572d10d069c32ada1a7452870a
+  commit: 81b4bfebfcc7ccef828d05c000c8190d8f19e6d0
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
