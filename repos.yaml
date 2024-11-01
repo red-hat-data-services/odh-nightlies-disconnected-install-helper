@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: c0e07092ecf591fd46ec2b94f93226aade9166c4
+  commit: b93dee3088dd392f63bb76d67dc809138382a804
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 5d826633c173f539c9785ad4031a157a187e74b0
+  commit: 23c82ac1efab11fde6c578ccb8bb5e9f0ccc4f9a
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: a40460600f2d899d9dd1aae5d0bf8d09b0c0ef89
+  commit: c3c09e2438e589042b87925f5b10654ac5af095f
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -41,7 +41,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: b76a51d505ba894075923cdca7495813899fe8ee
+  commit: 08effb010407f003681da47a395fa49137a6d987
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
