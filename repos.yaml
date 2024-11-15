@@ -1,15 +1,15 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 2dca1e97f4e66ea01efba28379fde186d1896b5e
+  commit: 84d22f35a620f43f0e8b397b1b45e2bdb25a8f46
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: f93a9922afd83236cc7a1eb95fa65f154d677b71
+  commit: 7ceb459126e671e4477c3990076a116f6e8f60d0
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
-  commit: 0d38196756799075fa86c0311a0359627a9ed6b7
+  commit: 3a5a05ea80d7e666ceb22de74bf808264573c6f9
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: main
-  commit: 8550c6eb6f1f9027986108ca28f3352c11d2e62b
+  commit: 0901977dbcd3bd656c623c1277405d817ec73de1
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -41,11 +41,11 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: 40080ed6222728cb8d0a7d8102e03ddda65aea08
+  commit: 8f3b5c5817b5add24cba2ed8dc1a2a9c3f202c4d
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: a8da75c592145fccb891217e21330c4b1034a751
+  commit: 6209cac1700398520139a568791e92a6a19bf71a
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 22f07c2e9936dcc078258a31f3eb62885101d89e
+  commit: 4b20b2a220985de84c7ac9071526056b1fdb8401
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 1ab469a9a1c6d1dec6e372ffa800e0a8d1532d90
+  commit: 768ae5c56e58c1b2ef446e54126b33da2279d1fc
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.12.1
