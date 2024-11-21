@@ -64,8 +64,8 @@ git:
   commit: 3ceb4008fa50bcfe6c40a19ca413daf63fef04c5
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
-  branch: release-v0.12.1
-  commit: b9b2a53c2ec11361a80bc6f68dcb55b6ff88367f
+  branch: release-v0.14
+  commit: 213b89fe63768ed34033aac6b541c92f5bfb9e1f
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
