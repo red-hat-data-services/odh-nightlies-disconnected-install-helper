@@ -1,15 +1,15 @@
 git:
 - automerge: 'yes'
   branch: incubation
-  commit: 0385779f319884c9ff6373e32de2bb59b016a86a
+  commit: 40f7a6c3eb3eed7d09df6e51479d68fb4ea0c1f1
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 6016195f0ed2df8bfab8ff822071859c7a736413
+  commit: 5331d690aa5f6224361fa2d640311e2a4c1df3c1
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
-  commit: 0e7e77bfe84a0989af261342ae6796f0059b9bb7
+  commit: 3cae697c20e555bb9aa1de3600e1ecd0aeea5200
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -49,7 +49,7 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 935c651e4044618a2c06449da1371975af822ace
+  commit: 9b7a927208746e7abbad8f5ff2c99ff98d9001c6
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
