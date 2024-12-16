@@ -5,7 +5,7 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 4510b8155d074d71a96b60dd6cb890992fa6fc24
+  commit: d402803a475fc18abf771a897e145aba66c72ae4
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: d80a1810fd1c03fb39877308f0ffd8831e822f1c
+  commit: 16ffc77f07c4c846a83456e2b454c9f3b39ed683
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
@@ -73,7 +73,7 @@ git:
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
-  commit: e3eebad502f46e719f52e617c32fb6f08bbabff8
+  commit: 6ab03d3f341a7af3ea96106272753f26b4c89a33
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
