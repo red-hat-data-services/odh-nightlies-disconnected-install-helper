@@ -5,7 +5,7 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 075914ab0d325d8ec05f5aff88b8477a8171c361
+  commit: ca83e34385236beecede593b570de3a5b4279847
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: incubating
-  commit: 2325b596566110ba13f338eb752bc7d98402506c
+  commit: 4fad7e6569a5b88cdb831616714929c5bd4a0b4b
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -49,11 +49,11 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 9b7a927208746e7abbad8f5ff2c99ff98d9001c6
+  commit: 7ecc86f1c8e9e7f51da507277cf8e096c70172c4
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: 5561d0cfe06d90e17558294920d184f073a9215f
+  commit: 03586004c5973540c0ea71a569c5090b4c83e05f
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
@@ -61,7 +61,7 @@ git:
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: cc4098a52d8b542b3eac1531fb888c6ad067d11f
+  commit: ffc8809beb5cc32a0f65e29dc09ce42cacf2915f
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.14
@@ -69,7 +69,7 @@ git:
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: f6678fd2d28d91cc79fe7996bd2c66553c53f033
+  commit: 92cafe91f8a5226d83be4f1214844a49dedb52fd
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
@@ -93,5 +93,5 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines.git
 - automerge: 'yes'
   branch: dev
-  commit: cc522815eb282fcc1baf9ff9a78773ac85494e80
+  commit: 220548f7d8ebb5a8e9a76776c6db9951b88cb6f1
   url: https://github.com/opendatahub-io/training-operator.git
