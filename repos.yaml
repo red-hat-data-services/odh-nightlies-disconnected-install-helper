@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
-  branch: incubation
-  commit: a39b8c7127d9f2f4c219ad1550d973e950b3454b
+  branch: main
+  commit: b0a5efa5db3c0d9379720fdfc52f14580f91003c
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: ca83e34385236beecede593b570de3a5b4279847
+  commit: 0f2b4f86d856392d09d85a7db6526c7301db3242
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -41,7 +41,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: b986a1a21938e0885180a91d39c25545d1bcb7e0
+  commit: 9ea9edc2abe697bc1c9b5ab2c508db0e2d5cd4a7
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
@@ -61,7 +61,7 @@ git:
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: ffc8809beb5cc32a0f65e29dc09ce42cacf2915f
+  commit: 8487113d0d18196d04aa542b2e84fbfd3476d117
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.14
