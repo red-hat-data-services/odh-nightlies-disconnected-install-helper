@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: 95f696ad391e2977475d46d6efb97d842cbfe26d
+  commit: 2eea4f1bbc74e0f91168ca5d0d791516e764e0d9
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 8d3338cb15dd5e37f614c545c14fd1c48f9f2d83
+  commit: ed014b842d1d4b4193a23648785dbff584130633
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -41,19 +41,19 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: 101d4f9b157e6650a6a9b5728efeb56812cdb234
+  commit: 8a5a9586f419cbf3ca749ce534f03c261324e87b
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: fc71e3e49fe180936e880b8fc2d18649a63e9b8a
+  commit: 22529bbf1284c4f48982cabbcd879d8b6222adbc
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 7ecc86f1c8e9e7f51da507277cf8e096c70172c4
+  commit: 2371c1d476099505a69be3e919ea36f819dc4977
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: b868c67ff5770aaec7589916997fcf175eb495ef
+  commit: ff99dc28e52d4f73da8b8b95cb59bff2e93715e8
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
@@ -77,7 +77,7 @@ git:
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
-  commit: 4ccf7bbad1d307df010546d3009750ea2debb95e
+  commit: a91d87de6c86685233f0110b8242b2e9bd13cebd
   url: https://github.com/opendatahub-io/kueue.git
 - automerge: 'yes'
   branch: master
@@ -93,5 +93,5 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines.git
 - automerge: 'yes'
   branch: dev
-  commit: 220548f7d8ebb5a8e9a76776c6db9951b88cb6f1
+  commit: 8ebd182bde1a96f0c1cdda7f6eae274679146c08
   url: https://github.com/opendatahub-io/training-operator.git
