@@ -93,5 +93,5 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines.git
 - automerge: 'yes'
   branch: dev
-  commit: 3cd909bac223d6dfc2e4e7fc7c1f40705128877d
+  commit: 750a731519b451f0927f359ae1f5b05599d1ee81
   url: https://github.com/opendatahub-io/training-operator.git
