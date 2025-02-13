@@ -1,7 +1,7 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: 9402f6aff43d5381cc32d0055eabdc84dc70a10f
+  commit: 2f984e34c879993fc9248085bcf3634644c3787a
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
