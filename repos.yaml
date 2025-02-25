@@ -1,19 +1,19 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: 2ef7ad77c59770d034abd3049da3600807d82867
+  commit: 5692647f2bee9faa9cfd6faf6fc218fa6c0b3a4d
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 6ded983bb61a790d4f41a253169addbd5851e427
+  commit: 9b6b7a674e3b4de3219b36e2b2897eecce1ce321
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
-  commit: 672e10221d62584c1df2807416810306ea4637ce
+  commit: a0d97411077eba0ef0fe6f8f0a44cf2ca899d73c
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
-  commit: 805ec0676c990a76e38ee65392a2af86016ce25b
+  commit: 1850599d5ae9d374c848185e0e1db86bf9e2bad5
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: incubating
@@ -21,7 +21,7 @@ git:
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
-  commit: a53aa14f0de759429b19ce522bed8cfc0eb9bbba
+  commit: be75e15d2bea31ed43f643a031670b140e0fec68
   url: https://github.com/opendatahub-io/rest-proxy.git
 - automerge: 'yes'
   branch: main
@@ -57,15 +57,15 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: a16a3470f7287a368d4571c91547a7838442b16e
+  commit: 754164699f6b19fead1c3cd5a0afa04c237389a3
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 4a7c9f9f8c7424ccd2cce59385e6357e95162ea8
+  commit: 1703ea27dfe94467456e5905af63179e73d960c8
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.14
-  commit: 1202d97f1d1bc2e1fa6740e5a7c4a10ed1992e34
+  commit: 2d635f920b4d596f5ce3672103ba3c902926a77d
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
@@ -89,7 +89,7 @@ git:
   url: https://github.com/opendatahub-io/argo-workflows.git
 - automerge: 'yes'
   branch: master
-  commit: 25a79dbf7e7a7dcf80a5ddbe6c951cc291fbad24
+  commit: 47904b1529da93dd1c5857e531aa5fa5cfe6413e
   url: https://github.com/opendatahub-io/data-science-pipelines.git
 - automerge: 'yes'
   branch: dev
