@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: e8843f659a1abc5b8066a07a98c48753d01099ca
+  commit: a67bdd7bf21c69d73b0114cf8cf7e2c4f1a08cb9
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 88e35929529a1527d79c6a4f3e0412a6734511d0
+  commit: 5252cc06a674ec477be683ee7c8b9a7004512646
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: incubating
-  commit: e4fe12059c998f68028d7655d851df6cffb2e16d
+  commit: b38e3cf655f904408e4bb5f5de6806bde701f8e7
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -41,7 +41,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: 7843ec0c9bb1b14c04e4889a37357ee0616fd959
+  commit: 01e8b417681d0bdfeb557e387bd4971f1c677dfc
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
@@ -53,15 +53,15 @@ git:
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: e1fe3969ea6c78250b4a161b979241c4f9c6514f
+  commit: 0edfdefef7104aa0419a772f20a8923142d97fdf
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 1230079af21b163e057457026892ca963fe2fdc2
+  commit: ccb22f0bc473904efa8ae30306c5467f149d1bae
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 2323e83b29dd3a84425e85de0ea8136de7f06f7a
+  commit: 414a9c06fca6468e3293290b859febba772a1984
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.14
@@ -93,5 +93,5 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines.git
 - automerge: 'yes'
   branch: dev
-  commit: 004473c849450214cdec836e65fa1cfdfeb6b9b8
+  commit: 881b80d8d613faffdb7166a95806b51ad7792094
   url: https://github.com/opendatahub-io/training-operator.git
