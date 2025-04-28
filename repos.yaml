@@ -49,7 +49,7 @@ git:
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: release-v1.3.2
-  commit: 5f32777e4ecc57ba487b88f643faafce05892a82
+  commit: 92d4a63f9a4f48b14504129034504196724eee9b
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
