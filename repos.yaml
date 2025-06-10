@@ -73,7 +73,7 @@ git:
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
-  commit: 80680bd514e0c1f81c78a2a312452b7a552a8ab8
+  commit: 2164388e4bfa28101bdd1436c4ff73d7ec5dbaba
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
