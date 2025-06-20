@@ -1,15 +1,15 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: f499b3aad16e163a17aa58d4b175479d2fef9180
+  commit: 1944670249be9d9bbb3ff18d339e04eca26dee80
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 2692224c3157f00a6fe93a2ca5bd267e3ff964ca
+  commit: d28ea66ef2a51c561dfbe7c32e8c3e1a98505c33
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
-  commit: eacf63cdaed4db766a6503aa413e388e1d2721ef
+  commit: 0b1dcd85035244aa0a1f2c2fb6b59d25dbe65bad
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 050ca1f0612b024b312df1e1a816c5e4991166fa
+  commit: 5e094c0f5edcd66331749dfc0aa3350188b4239a
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: release-v1.3.2
@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 6d80d2720879c6a6ce6e3f8b22e3892d39b34914
+  commit: 3f7312e2cc169714a44d803848568f505503928f
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: eeeaf90c4cfb36cf6fcbde0d1d287b3f26ebec9b
+  commit: 3ca4289dfe5afc4aa8f773ea0be607aa10838aa4
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.15
@@ -69,11 +69,11 @@ git:
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: 3e5790474d0ae8fadc431cf90761b69a770d2ef9
+  commit: 7a59a406c2b32f042baf2ac91965ed3bef89e32b
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
-  commit: 2164388e4bfa28101bdd1436c4ff73d7ec5dbaba
+  commit: f052f929272cb97d749ad5fc3bf6852401c06cf9
   url: https://github.com/opendatahub-io/model-registry-operator.git
 - automerge: 'yes'
   branch: dev
