@@ -5,7 +5,7 @@ git:
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 9290fc9ed7952e820b20db4cb05081dfc401c28b
+  commit: 82bc33b1eadaf9907eb7e7b3680f26aee5bd0ae4
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -41,7 +41,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-explainability.git
 - automerge: 'yes'
   branch: main
-  commit: c191d7caad7f86faf7f71848af9c92dde40fd1dd
+  commit: ca8a3cd90ca536ded3bd465b5dc3ef98cca0a4d4
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
@@ -53,23 +53,23 @@ git:
   url: https://github.com/opendatahub-io/kuberay.git
 - automerge: 'yes'
   branch: main
-  commit: 7425d5265e815c7a94ee5c5cd3ad1b6f1df5b2fd
+  commit: de82e8a0a2c00029f8ada8f4a489ad42a8174b74
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: b7e0b74a8caf1920e19b676bcd1633509746575c
+  commit: 1720bf699367cee5b4294ef350e954bb1bc7501e
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 05d6ed583248a116a96ee01e98b856dea9829b38
+  commit: 6b2d9cad53ab88c9d6a6e6b74efbc5b888a604f7
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.15
-  commit: 22c812552cc5241b8871ea217294453a141c51ad
+  commit: 2d40326813d23973e3f4069df7c3ba8bfe751414
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: 165d930a68025c77135098a8c3a8aea0a23558ef
+  commit: 367720e121868a3cca1de2ac66cc4bb16f971197
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
