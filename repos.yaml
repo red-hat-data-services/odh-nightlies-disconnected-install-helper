@@ -1,11 +1,11 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: 9935266301ae923cac934984862b09f89504accd
+  commit: da7d39607f0f9815877f4eb00e9c7a4986204eaf
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 210766925e85e296cd7fd3a28a8e5e3b2abe5e14
+  commit: 597e5d3c208ee814bdbfab9c15ee65dfd0871c72
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
@@ -57,11 +57,11 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 3eaf111055650d60663e8611c5daf1cccae525b8
+  commit: 3d58c8429518cc820c95170b314fcd1766300d8f
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: 5c1bfdc29a38fcdfeceda887319423063d6c66d2
+  commit: 20917c58ab6cee03fb30f6635c06fb3e5af41260
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.15
@@ -69,7 +69,7 @@ git:
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
-  commit: efb1f31eb0b0d490d44284a061441ec8fa103083
+  commit: 877fc9dad312c3dac590f0acdb9b10e067a16df7
   url: https://github.com/opendatahub-io/model-registry.git
 - automerge: 'yes'
   branch: main
