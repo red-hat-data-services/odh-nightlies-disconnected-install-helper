@@ -1,15 +1,15 @@
 git:
 - automerge: 'yes'
   branch: main
-  commit: 53ec884172673a63db46d3e66c136715df85c173
+  commit: cdbacd595b43e1f80b253da3732fe36c9aa1f10c
   url: https://github.com/opendatahub-io/opendatahub-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 02036146af4648f8a4d215f1ea1468a54a9e572e
+  commit: 13492d0d2efea459c6e434a3875645172bd1bbb1
   url: https://github.com/opendatahub-io/odh-dashboard.git
 - automerge: 'yes'
   branch: main
-  commit: b84fd03759d74782a79296b89751bf1711e2ee5e
+  commit: 643f48a55737855b9de88ab8ed3dec3700407547
   url: https://github.com/opendatahub-io/kubeflow.git
 - automerge: 'yes'
   branch: main
@@ -17,7 +17,7 @@ git:
   url: https://github.com/opendatahub-io/modelmesh-serving.git
 - automerge: 'yes'
   branch: incubating
-  commit: 32b03f773436b1a7350db604c639ff0ff2e9a2ed
+  commit: 3a670accb3a80a4c8c509b2d43b4807f1da5cc60
   url: https://github.com/opendatahub-io/odh-model-controller.git
 - automerge: 'yes'
   branch: main
@@ -45,7 +45,7 @@ git:
   url: https://github.com/trustyai-explainability/trustyai-service-operator.git
 - automerge: 'yes'
   branch: main
-  commit: bf32b7d48994b2802128e22baacaf80624a40ad9
+  commit: f107a816dd52f0ff330dc96da3ea7ab940b501b7
   url: https://github.com/opendatahub-io/data-science-pipelines-operator.git
 - automerge: 'yes'
   branch: release-v1.4.0
@@ -57,15 +57,15 @@ git:
   url: https://github.com/opendatahub-io/codeflare-operator.git
 - automerge: 'yes'
   branch: main
-  commit: 858d591d5a1ae009d7c454b10d818657dbab340b
+  commit: 030b2058e093ee118731ed150dca36e484913450
   url: https://github.com/opendatahub-io/distributed-workloads.git
 - automerge: 'yes'
   branch: main
-  commit: be19604de9935cfa4e5467dc3c4d28acfab5bd4c
+  commit: 35ad6da7f3f2c3c7ef609eb304dbaa246ef35469
   url: https://github.com/opendatahub-io/notebooks.git
 - automerge: 'yes'
   branch: release-v0.15
-  commit: 01630ce7a43f9411952512138b0f8b11c221b01d
+  commit: 53fe5d43d64fdd4cf12d16e209bedd680204146f
   url: https://github.com/opendatahub-io/kserve.git
 - automerge: 'yes'
   branch: main
